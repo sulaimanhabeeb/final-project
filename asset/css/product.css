@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-left: 300px;
+    height: 550px;
+    width: 800px;
+    background-color: blue;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-inner{
+    background:white;
+    width:80%;
+    height: 70%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.container-inner .images,
+.container-inner .info{
+    width: 50%;
+}
+
+.info .price{
+display: flex;
+width: 40%;
+justify-content: space-between;
+}
+
+.info .description{
+display: flex;
+} 
+
+.info{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.reviews{
+    color: yellow;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+.buttons{
+height: 40px;
+display: flex;
+justify-content: space-between;
+}
+
+.buttons button {
+    width: 45%;
+    border-radius: 25px;
+}
+
+.buttons button:hover{
+    color: white;
+    background:yellowgreen;
+}
+
+.img{
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.images img {
+width: 90%;
+margin: auto;
+}
+
+
+.footer{
+    background-color: crimson;
+    color: darkblue;
+    position: relative;
+    text-align: center;
+}

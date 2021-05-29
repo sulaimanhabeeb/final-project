@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color:rgb(87, 87, 146);
+    transition: 0.3s ease;
+}
+
+.hamburger-wrapper{
+    display:none;
+}
+
+.nav-items .nav-links{
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+    color: bisque;
+}
+
+.nav-items .nav-links:hover{
+    background-color: rgb(9, 10, 9);
+    color: lightcoral;
+    border-radius: 10px;
+}
+
+.logo-wrapper .logo{
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+
+/* shoes category */
+.shoe-head{
+    color: darkblue;
+    text-align: center;
+    padding: 20px 200px;
+}
+
+img{
+    width: 30%;
+    display: block;
+}
+
+.container{
+    width: 88vw;
+    margin: 0 auto;
+}
+
+.products{
+    /* padding: 3.2rem 0; */
+    width: 60%;
+}
+.product{
+    position: relative;
+    padding: 2rem;
+}
+
+.product-content{
+    width: 100%;
+
+}
+
+.product-img{
+    width: 2000px;
+}
+
+.image-content{
+    margin-top: 20px;
+margin-left: 450px;
+padding-bottom: 200px;
+}
+
+.image-pics{
+    width: 1600px;
+}
+
+.text-image{
+    padding: 20px;
+ margin-left: 170px;
+}
+
+.rating-image1{
+    margin-left: 200px;
+    color: blue;
+    margin-top: 20px;
+}
+
+.product1{
+margin-left: 200px;
+margin-top: 10px;
+font-size: 20px;
+}
+
+.product-btns{
+    padding-top: 20px;
+    margin-left: 200px;
+}
+
+
+.footer{
+    background-color: crimson;
+    color: darkblue;
+    position: relative;
+    text-align: center;
+}
+
+/* MEDIA QUERY */
+@media (max-width:900px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
+
+    .hamburger-wrapper{
+        display: block;
+        color: white;
+        cursor: pointer;
+        font-size: 25px;
+        }
+    
+    .nav-items{
+        display: none;
+    }
+
+    .open-nav-items{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .nav-links{
+        text-align: right;
+        
+    }
+
+
+    }

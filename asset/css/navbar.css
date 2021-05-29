@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color:rgb(87, 87, 146);
+    transition: 0.3s ease;
+}
+
+.hamburger-wrapper{
+    display:none;
+}
+
+.nav-items .nav-links{
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+    color: bisque;
+}
+
+.nav-items .nav-links:hover{
+    background-color: rgb(9, 10, 9);
+    color: lightcoral;
+    border-radius: 10px;
+}
+
+.logo-wrapper .logo{
+    font-size: 25px;
+    color: blanchedalmond;
+}
